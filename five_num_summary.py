@@ -1,10 +1,10 @@
 def five_num_summary(items):
-    '''
+    """
     This function takes one argument. a list of numbers and computes the five number summary on that list.
     that means it calculates the max, min, median, first quartile, and third quartile and returns a dictionary
     with those values.
 
-        '''
+    """
 
     for num in items:
         s_list = sorted(items)

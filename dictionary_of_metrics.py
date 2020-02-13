@@ -1,10 +1,10 @@
 def dictionary_of_metrics(items):
     for num in items:
-    '''
+    """
     This function takes in one argument, a list of numbers and computes the mean, median, variance,
     max and min numbers rounded to 2 decimal spaces, then outputs the operations into a dictionary.
 
-        '''
+    """
         sort_list = sorted(items)# list needs to be sorted for median
     
         num_mean = sum(items) / len(items)
