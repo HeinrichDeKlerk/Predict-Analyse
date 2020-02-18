@@ -1,6 +1,13 @@
-### START FUNCTION
 def stop_words_remover(df):
-    # your code here
+    """
+    Modify pandas dataframe to remove stop words defined in dictionary.
+    
+    Args:
+        df (pandas dataframe)
+    Returns:
+        Modified dataframe with new column 'Without Stop Words', that do not contain the stop words defined in the dict
+        provided
+    """
     spl_twt = {}
     i = 0
     while i < len(df['Tweets']):
@@ -17,5 +24,3 @@ def stop_words_remover(df):
     df['Without Stop Words'] = pd.Series(new_list)
     df.drop('Split Tweets', axis = 1, inplace = True)
     return df
-
-### END FUNCTION
