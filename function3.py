@@ -1,6 +1,8 @@
 def date_parser(dates):
     """
-    Doc strings here
+    This function takes as input a list of datetime 
+    in a form "yyyy-mm-dd hr-min-sec" strings and 
+    returns only the date in 'yyyy-mm-dd' format.
     """
     new_dates = []
     for date in dates:
