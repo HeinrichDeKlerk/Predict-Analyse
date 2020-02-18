@@ -1,5 +1,17 @@
 ### START FUNCTION
 def dictionary_of_metrics(items):
+    """
+    Calculate mean, median, maximum, minimum, variance and standard deviation
+    with a ddof=1.
+
+    Args:
+        items(list) of ints or floats
+
+    Returns:
+        Dictionary of operations performed
+
+    """
+
         q=np.mean(items)
         w=np.median(items)
         e=np.var(items, ddof=1)

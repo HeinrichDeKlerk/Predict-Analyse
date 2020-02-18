@@ -1,8 +1,16 @@
 
 def five_num_summary(items):
     """
-    This function takes in 1 list(item) of int or float as argument, It then returns the Five Number Summary of list.
-    Five number summary = list maximum, minimum, median, 25th percentile and 75th percentile.
+    Calculate the five number summary on a list of items
+    Five number summary includes maximum, minimum, median,
+    25th percentile and 75th percentile
+
+    Args:
+        items (list) of ints or floats
+    
+    Returns:
+        Dictionary of calculated operations
+
     """
     
     a=np.max(items)
