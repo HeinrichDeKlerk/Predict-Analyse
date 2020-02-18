@@ -1,5 +1,9 @@
 
 def five_num_summary(items):
+    """
+    This function takes in 1 list(item) of int or float as argument, It then returns the Five Number Summary of list.
+    Five number summary = list maximum, minimum, median, 25th percentile and 75th percentile.
+    """
     
     a=np.max(items)
     s=np.median(items)
