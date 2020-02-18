@@ -1,6 +1,14 @@
-### START FUNCTION
 def word_splitter(df):
-    # your code here
+    """
+    Modifies dataframe directly to tokenize sentences in tweets. ie, split sentences in tweets into seperate words.
+    Splits sentences and adds result to new column in dataframe.
+    
+    Args:
+        df (pandas dataframe)
+        
+    Returns:
+        Modiefied dataframe with added column 'Split Tweets'
+    """
     spl_twt = {}
     i = 0
     while i < len(df['Tweets']):
@@ -8,5 +16,3 @@ def word_splitter(df):
         i+=1
     df['Split Tweets'] = pd.Series(spl_twt)
     return df
-
-### END FUNCTION
