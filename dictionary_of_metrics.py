@@ -1,6 +1,11 @@
 def dictionary_of_metrics(items):
     """
-    Docstring here
+    Calculate mean, median, maximum, minimum, variance and standard deviation
+    with a ddof=1.
+    Args:
+        items(list) of ints or floats
+    Returns:
+        Dictionary of operations performed
     """
     D= {'mean': round(np.mean(np.array(items)),2),
          'median':round(np.median(np.array(items)),2),
