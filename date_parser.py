@@ -1,14 +1,12 @@
 def date_parser(dates):
-
     """
-    This funcyion returns a list of strings from an input of strings
-    and formats as ''yyyy-mm-dd
-
+    This function takes as input a list of datetime 
+    in a form "yyyy-mm-dd hr-min-sec" strings and 
+    returns only the date in 'yyyy-mm-dd' format.
     """
+    new_dates = []
+    for date in dates:
+        my_dates = date.split()
+        new_dates.append(my_dates[0])
+    return new_dates
 
-    i=0
-    while i < len(dates):
-        dates[i] = dates[i][:10]
-        i+=1
-    
-    return dates

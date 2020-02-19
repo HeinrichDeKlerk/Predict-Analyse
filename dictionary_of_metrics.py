@@ -1,10 +1,15 @@
 def dictionary_of_metrics(items):
+  
+      """
+    Calculate mean, median, maximum, minimum, variance and standard deviation
+    with a ddof=1.
+    Args:
+        items(list) of ints or floats
+    Returns:
+        Dictionary of operations performed
+    """
     for num in items:
-    """
-    This function takes in one argument, a list of numbers and computes the mean, median, variance,
-    max and min numbers rounded to 2 decimal spaces, then outputs the operations into a dictionary.
-
-    """
+   
         sort_list = sorted(items)# list needs to be sorted for median
     
         num_mean = sum(items) / len(items)
