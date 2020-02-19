@@ -1,0 +1,8 @@
+setup.py
+predictModuleT27/__init__.py
+predictModuleT27/predictModuleT27.py
+predictModuleT27.egg-info/PKG-INFO
+predictModuleT27.egg-info/SOURCES.txt
+predictModuleT27.egg-info/dependency_links.txt
+predictModuleT27.egg-info/requires.txt
+predictModuleT27.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: predictModuleT27
+Version: 0.1
+Summary: Analyse predict function package
+Home-page: https://github.com/HeinrichDeKlerk/predictModuleT27
+Author: Heinrich de Klerk, Armaan Maharaj, Sibusiso Luthuli, Abednego
+Author-email: heinrich.deklerk9@gmial.com
+License: MIT
+Description: This package contains functions to compute various operations on lists and pandas dataframes.
+        
+Platform: UNKNOWN
