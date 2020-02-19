@@ -1,4 +1,3 @@
-
 def five_num_summary(items):
     """
     Calculate the five number summary on a list of items
@@ -20,3 +19,4 @@ def five_num_summary(items):
     g=np.quantile(items, .75)
     
     return dict(max=round(a,2), median=round(s,2),min =round(d,2), q1=round(f,2), q3=round(g,2))
+
