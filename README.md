@@ -1,16 +1,16 @@
-#predictModuleT27  
+# predictModuleT27  
 A Python package with functions that are useful in extracting insightful information from data and dataframes, particularly pertaining to Eskom. 
 
-##Installing this package locally  
+## Installing this package locally  
 'python setyp.py sdist'
 
-##Installing this package from GitHub  
+## Installing this package from GitHub  
 pip install git+https://github.com/HeinrichDeKlerk/predictModuleT27.git
 
-##Updating this file from GitHub  
+## Updating this file from GitHub  
 pip install --upgrade git+https://github.com/HeinrichDeKlerk/predictModuleT27.git
 
-##following is a list of the functions in this module with a brief overview. Click on the link to view function and comprehensive docstring.
+## following is a list of the functions in this module with a brief overview. Click on the link to view function and comprehensive docstring.
 
 
 [dictionary_of_metrics](functions/dictionary_of_metrics.py) :   Calculate mean, median, maximum, minimum, variance and standard deviation with a ddof=1 (degrees of freedom).
