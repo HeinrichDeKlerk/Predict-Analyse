@@ -1,11 +1,22 @@
 def five_num_summary(items):
     """
-     This function takes in a list of integers and returns a 
-     dictionary of the five number summary
+    Calculate the five number summary on a list of items
+    Five number summary includes maximum, minimum, median,
+    25th percentile and 75th percentile
+
+    Args:
+        items (list) of ints or floats
+    
+    Returns:
+        Dictionary of calculated operations
+
     """
-    Fun_2= {'max': round(max(items),2),
-          'median': round(np.median(items),2),
-          'min': round(min(items),2),
-          'q1': round(np.quantile(items, q= 0.25),2),
-          'q3': round(np.quantile(items, q= 0.75),2)}
-    return Fun_2
+    
+    a=np.max(items)
+    s=np.median(items)
+    d=np.min(items)
+    f=np.quantile(items, .25)
+    g=np.quantile(items, .75)
+    
+    return dict(max=round(a,2), median=round(s,2),min =round(d,2), q1=round(f,2), q3=round(g,2))
+

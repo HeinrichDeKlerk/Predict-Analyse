@@ -9,3 +9,4 @@ def date_parser(dates):
         my_dates = date.split()
         new_dates.append(my_dates[0])
     return new_dates
+
