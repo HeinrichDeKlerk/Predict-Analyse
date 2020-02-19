@@ -10,7 +10,7 @@ pip install git+https://github.com/HeinrichDeKlerk/predictModuleT27.git
 ## Updating this file from GitHub  
 pip install --upgrade git+https://github.com/HeinrichDeKlerk/predictModuleT27.git
 
-## following is a list of the functions in this module with a brief overview. Click on the link to view function and comprehensive docstring.
+## Following is a list of the functions in this module with a brief overview. Click on the link to view function and comprehensive docstring.
 
 
 [dictionary_of_metrics](functions/dictionary_of_metrics.py) :   Calculate mean, median, maximum, minimum, variance and standard deviation with a ddof=1 (degrees of freedom).
